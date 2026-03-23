@@ -4,7 +4,17 @@
       "Read(//Users/spar-voc/.claude/**)",
       "Bash(bun --version)",
       "Bash(curl -fsSL https://bun.sh/install)",
-      "Bash(bash)"
+      "Bash(bash)",
+      "Read(//Users/spar-voc/**)",
+      "Bash(export PATH=\"$HOME/.bun/bin:$PATH\")",
+      "Bash(bash install.sh)",
+      "Bash(bun run:*)",
+      "Bash(cp -n /Users/spar-voc/Documents/GitHub/Personal_AI_Infrastructure/Releases/v4.0.3/.claude/CLAUDE.md.template ~/.claude/CLAUDE.md.template)",
+      "Bash(cp -n /Users/spar-voc/Documents/GitHub/Personal_AI_Infrastructure/Releases/v4.0.3/.claude/statusline-command.sh ~/.claude/statusline-command.sh)",
+      "Bash(cp -n /Users/spar-voc/Documents/GitHub/Personal_AI_Infrastructure/Releases/v4.0.3/.claude/install.sh ~/.claude/install.sh)"
+    ],
+    "additionalDirectories": [
+      "/Users/spar-voc/.claude"
     ]
   }
 }
